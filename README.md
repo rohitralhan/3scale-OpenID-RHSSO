@@ -24,7 +24,7 @@ Red Hat [Single Sign-On](https://access.redhat.com/products/red-hat-single-sign-
  - Red Hat 3Scale operator deployed
  - **oc** CLI Access
 
-## Refrences
+## References
  - [Red Hat 3scale API Management 2.14](https://docs.redhat.com/en/documentation/red_hat_3scale_api_management/2.14/)
  - [Red Hat Single Sign-On 7.6](https://docs.redhat.com/en/documentation/red_hat_single_sign-on/7.6)
 
@@ -33,7 +33,7 @@ In this section, we will configure Red Hat SSO
  - Setup a Security Realm
  - Setup a Client for 3Scale to sync with Red Hat SSO
 
-1. Use the below resource defination to **Create a Keycloak instance**
+1. Use the below resource definition to **Create a Keycloak instance**
 
    ```yml
    kind: Keycloak
