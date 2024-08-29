@@ -58,14 +58,14 @@ In this section, we will configure Red Hat SSO
     oc get secret credential-example-keycloak -n <<keycloak namespace>> -o json | jq -r .data.ADMIN_PASSWORD | base64 -d
    ```
    
-4. Login into Red Hat SSO using the above URL and login details, on the top left, as shown in the screenshot hover over the realm name to bring up the **Add Realm** menu.
+3. Login into Red Hat SSO using the above URL and login details, on the top left, as shown in the screenshot hover over the realm name to bring up the **Add Realm** menu.
 
 [![Add Realm](https://github.com/rohitralhan/3scale-OpenID-RHSSO/blob/main/images/add-realm.png?raw=true)](https://github.com/rohitralhan/3scale-OpenID-RHSSO/blob/main/images/add-realm.png?raw=true)
 
 [![Add Realm](https://github.com/rohitralhan/3scale-OpenID-RHSSO/blob/main/images/realm.png?raw=true)](https://github.com/rohitralhan/3scale-OpenID-RHSSO/blob/main/images/realm.png?raw=true)
 
 
-2. Next, we will configure the client used by 3Scale to sync with Red Hat SSO as shown in the screenshot below
+4. Next, we will configure the client used by 3Scale to sync with Red Hat SSO as shown in the screenshot below
 
 [![Add Realm](https://github.com/rohitralhan/3scale-OpenID-RHSSO/blob/main/images/zync-client.png?raw=true)](https://github.com/rohitralhan/3scale-OpenID-RHSSO/blob/main/images/zync-client.png?raw=true)
 
